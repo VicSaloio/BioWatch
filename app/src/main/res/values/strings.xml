@@ -1,0 +1,145 @@
+<resources>
+
+    <!-- APP -->
+    <string name="app_name">BioWatch</string>
+
+    <!-- NAVIGATION -->
+    <string name="nav_home">Home</string>
+    <string name="nav_records">Records</string>
+    <string name="nav_new">New</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- ACTIONS AND ACCESSIBILITY -->
+    <string name="action_back">Back</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_increase_zoom">Zoom in</string>
+    <string name="action_decrease_zoom">Zoom out</string>
+
+    <!-- HOME -->
+    <string name="home_title">BioWatch</string>
+    <string name="home_slogan">Observe. Record. Preserve.</string>
+    <string name="home_question">What can we find nearby?</string>
+
+    <string name="home_explore_title">Explore the biodiversity around you</string>
+    <string name="home_explore_description">Record species and keep track of your observations.</string>
+    <string name="home_register_species">Record species</string>
+
+    <string name="home_your_records">Your records</string>
+    <string name="label_species">Species</string>
+    <string name="label_locations">Locations</string>
+    <string name="label_records">Records</string>
+
+    <string name="home_latest_observation">Latest observation</string>
+    <string name="no_photo">No photo</string>
+
+    <!-- NEW OBSERVATION -->
+    <string name="register_title">New observation</string>
+    <string name="register_subtitle">Record a species you found</string>
+
+    <string name="register_step_identification">1  IDENTIFICATION</string>
+    <string name="register_species_question">Which species did you find?</string>
+    <string name="register_species_name">Species name</string>
+    <string name="register_search_species">Search species</string>
+    <string name="register_searching_species">Searching...</string>
+    <string name="register_type_species">Enter a species name</string>
+    <string name="register_select_species">Select a species</string>
+    <string name="register_species_not_found">No species found</string>
+    <string name="register_inaturalist_error">Unable to search iNaturalist</string>
+
+    <string name="register_selected_species">Selected: %1$s</string>
+    <string name="register_selected_species_scientific">Selected: %1$s\nScientific name: %2$s</string>
+    <string name="register_common_name_unavailable">Common name unavailable</string>
+
+    <string name="register_category">Category</string>
+    <string name="register_category_example">E.g.: bird, mammal, plant</string>
+
+    <string name="register_step_location_date">2  LOCATION AND DATE</string>
+    <string name="register_location_question">Where did it happen?</string>
+    <string name="register_location">Location</string>
+    <string name="register_search_location">Search location</string>
+    <string name="register_searching_location">Searching location...</string>
+    <string name="register_type_location">Enter a location to search</string>
+    <string name="register_select_location">Select the correct location</string>
+    <string name="register_location_not_found">No location found</string>
+    <string name="register_location_search_error">Unable to search location</string>
+    <string name="register_location_selected">Location selected for the map</string>
+    <string name="register_location_coordinates_error">Unable to obtain coordinates for this location</string>
+
+    <string name="register_or">or</string>
+    <string name="register_use_current_location">Use current location</string>
+    <string name="register_searching_current_location">Getting location...</string>
+    <string name="register_current_location_captured">Current location captured</string>
+    <string name="register_current_location_error">Unable to get current location</string>
+    <string name="register_location_permission_denied">Location permission not granted</string>
+    <string name="register_location_name_unavailable">Location captured; place name unavailable</string>
+
+    <string name="register_date">Observation date</string>
+    <string name="register_date_placeholder">DD/MM/YYYY</string>
+
+    <string name="register_step_details">3  DETAILS</string>
+    <string name="register_complete_record">Complete your record</string>
+    <string name="register_notes">Notes</string>
+    <string name="register_notes_placeholder">Behavior, environment, or other details</string>
+
+    <string name="register_add_photo">Add photo</string>
+    <string name="register_change_photo">Change photo</string>
+    <string name="register_observation_photo">Observation photo</string>
+
+    <string name="register_save">Save observation</string>
+
+    <!-- VALIDATION -->
+    <string name="validation_species">Enter the species name.</string>
+    <string name="validation_category">Enter the category.</string>
+    <string name="validation_location">Enter the location.</string>
+    <string name="validation_location_map">Search for the location or use your current location to place the observation on the map.</string>
+    <string name="validation_date">Enter the complete date in DD/MM/YYYY format.</string>
+
+    <!-- RECORDS -->
+    <string name="records_title">Records</string>
+    <string name="records_subtitle">Your biodiversity observations</string>
+    <string name="records_empty_title">No observations recorded</string>
+    <string name="records_empty_description">Your observations will appear here.</string>
+    <string name="records_delete_title">Delete observation</string>
+    <string name="records_delete_message">Do you want to delete this observation?</string>
+    <string name="records_delete_confirm">Delete</string>
+    <string name="records_delete_cancel">Cancel</string>
+
+    <!-- DETAILS -->
+    <string name="details_title">Observation details</string>
+    <string name="details_information">Information</string>
+    <string name="details_category">Category</string>
+    <string name="details_location">Location</string>
+    <string name="details_date">Observation date</string>
+    <string name="details_notes">Notes</string>
+
+    <!-- MAP -->
+    <string name="map_title">Map</string>
+    <string name="map_subtitle">Where your observations happened</string>
+
+    <plurals name="map_observation_count">
+        <item quantity="one">%d observation on the map</item>
+        <item quantity="other">%d observations on the map</item>
+    </plurals>
+
+    <!-- PROFILE -->
+    <string name="profile_title">Profile</string>
+    <string name="profile_subtitle">Your observation history</string>
+    <string name="profile_add_photo">Add photo</string>
+    <string name="profile_change_photo">Change photo</string>
+    <string name="profile_photo_description">Profile photo</string>
+
+    <string name="profile_activity_title">My activity</string>
+    <string name="profile_activity_description">An overview of the observations you have recorded.</string>
+
+    <string name="profile_summary">Summary</string>
+    <string name="profile_about_title">About BioWatch</string>
+    <string name="profile_about_description">Record species, track your observations, and learn more about the biodiversity around you.</string>
+    <string name="home_nature_image_description">Nature landscape</string>
+    <string name="details_location_not_provided">Not provided</string>
+    <string name="profile_data_sources_title">Data sources</string>
+    <string name="profile_data_sources_species">Species information: iNaturalist</string>
+    <string name="profile_data_sources_location">Location data: OpenStreetMap / Nominatim</string>
+    <string name="profile_data_sources_map">Map: OpenFreeMap / MapLibre</string>
+
+</resources>
